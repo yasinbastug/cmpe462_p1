@@ -88,7 +88,6 @@ def decision_boundary(input_x, output_y, w, ax=None, title = None):
     if title:
         ax.set_title(title)
 
-# Assuming you have defined the result_large, result_small, and result_small_w_2 arrays
 
 fig, axs = plt.subplots(1, 2, figsize=(15, 5))
 
